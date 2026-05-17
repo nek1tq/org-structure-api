@@ -48,7 +48,7 @@ REST API для управления организационной структ
 Требования: Docker Desktop (или Docker Engine + Compose v2).
 
 ```bash
-git clone https://github.com/<your-username>/org-structure-api.git
+git clone https://github.com/nek1tq/org-structure-api.git
 cd org-structure-api
 cp .env.example .env
 docker compose up --build
@@ -73,7 +73,7 @@ docker compose down -v           # остановить и удалить том
 Требования: Python 3.11+ и Poetry (или pip + venv).
 
 ```bash
-git clone https://github.com/<your-username>/org-structure-api.git
+git clone https://github.com/nek1tq/org-structure-api.git
 cd org-structure-api
 
 # Вариант A — Poetry
